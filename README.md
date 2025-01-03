@@ -16,3 +16,5 @@ The Sorting Algorithm Visualization project is an interactive tool that visually
 - HTML: Structuring the layout of the visualization.
 - CSS: Styling the components and animations for an engaging user experience.
 - JavaScript: Implementing the logic for sorting algorithms and their visualization.
+## LIVE DEMO
+Experience the project live: [Sorting-Algorithm-Visualization](https://sakshi-1224.github.io/Sorting-Algorithm-Visualization/).
