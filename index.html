@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting-Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .input-group input{
+            height:44px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sorting Visualizer</h1>
+        <div class="controls">
+            <div class="input-group">
+                <input type="text" id="arrayinput" placeholder="enter the numbers between 1-100">
+            </div>
+            <div class="input-group">
+                <select id="sort-algo" class="dropdown">
+                    <option value="bubble">Bubble Sort</option>
+                    <option value="selection">Selection Sort</option>
+                    <option value="insertion">Insertion Sort</option>
+                    <option value="merge">Merge Sort</option>
+                    <option value="quick">Quick Sort</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <button id="sort-button" class="btn">Start Sorting</button>
+            </div>
+        </div>
+        <div id="array-container">
+        </div>
+        <p class="sorted-output">Sorted Array: <span id="sorted-numbers"> </span></p>
+
+    </div>
+    <footer>
+        <p>Created by Sakshi</p>
+        <div class="footerimg">
+        <a  href="https://www.linkedin.com/in/sakshi-solanki-81228b289/"><img src="lindlngrey.png" alt=""></a>
+        <a  href="https://github.com/Sakshi-1224"><img src="githubgrey.png" alt=""></a>
+    </div>
+ </footer>
+    <script src="script.js"></script>
+</body>
+</html>
