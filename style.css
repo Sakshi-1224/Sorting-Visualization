@@ -148,5 +148,21 @@ span{
    text-decoration: none;
  }
 
- 
+  @media (max-width: 677px) {
+    /* Styles for tablets and smaller screens */
+    .controls{
+        display: block;
+        gap:1rem;
+    }
+  }
+  @media (max-width: 346px) {
+    /* Styles for tablets and smaller screens */
+    .h1{
+        font-size: 2rem;
+    }
+    .container{
+       width:100vw;
+       height:100vh;
+    }
+  }
  
